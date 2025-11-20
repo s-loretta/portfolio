@@ -15,7 +15,7 @@
     <nav>
       <div class="w-20 h-25 bg-white rounded-lg flex items-center justify-center">
         <a href="#">
-          <img src="img/logoprincipal.png" alt="Logo Loretta" class="logo" width="60" />
+          <img src="img/logoprincipal.png" alt="Logo Loretta" class="logo w-[60px] h-auto" />
         </a>
       </div>
       <ul>
@@ -29,7 +29,7 @@
     </nav>
   </header>
 
-  <section class="text" id="accueil" >
+  <section class="text px-4 md:px-24 py-12 md:py-24" id="accueil">
     <h1>
       Bonjour, je suis
       <span style="color: blueviolet;"><span class="auto-typing"></span></span>
@@ -40,7 +40,7 @@
       Passionnée par le <strong>développement web</strong>, l’<strong>analyse de données</strong>
       et les <strong>nouvelles technologies</strong>,
       je suis actuellement à la recherche
-      <span style="color: blueviolet;">d’une alternance pour l’année 2026–2027</span>
+      <span style="color: blueviolet;">d’une alternance </span>
       ainsi que d’un <span style="color: blueviolet;">stage</span> afin d’approfondir mes compétences
       et de participer à des projets concrets. <br /><br />
       Ouverte aux postes en <strong>développement</strong> ou en <strong>support IT</strong>,
@@ -64,9 +64,9 @@
     });
   </script>
 
-  <section class=" px-8 text-center" id="skills" >
-    <h2 class="text2 "  >Compétences techniques</h2>
-   <div class="skills-containers pb-10">
+  <section class=" px-8 text-center" id="skills">
+    <h2 class="text2 ">Compétences techniques</h2>
+    <div class="skills-containers pb-10">
       <div class="skill-box">
         <img src="img/webicon.png" alt="Développement Web" />
         <h3>Développement Web</h3>
@@ -131,9 +131,11 @@
   <section id="projets">
     <h2 class=" text2 flex justify-center ">Projets</h2>
     <h3 class="text3 flex justify-center ">Pokédex </h3>
-    <div class=" flex items-center justify-center mt-1 mb-1">
-       <h1> <img src="./img/image accueil pokedex.png" alt="accueilpokedex" width="650px" class="mr-4" /></h1>
-       <h1> <img src="./img/profil pokemon .png" alt="profilpokemon" width="700px" /></h1>
+    <div class="flex flex-col md:flex-row items-center justify-center mt-1 mb-1 gap-4">
+       <h1> <img src="./img/image accueil pokedex.png" alt="accueilpokedex"
+          class="w-full max-w-2xl h-auto rounded-lg shadow-lg" /></h1>
+       <h1> <img src="./img/profil pokemon .png" alt="profilpokemon"
+          class="w-full max-w-2xl h-auto rounded-lg shadow-lg" /></h1>
   </section>
   <p class=" text4 text-lg text-gray-300 mb-8 p-8 px-10 "> <strong>Fonctionnalités Clés: </strong> <br> <br>
     - Présentation des Pokémon vedettes avec leur nom et leurs types. <br>
@@ -157,7 +159,7 @@
   </div>
   <h3 class=" text3 flex justify-center ">TODO-APP </h3>
   <div class=" flex items-center justify-center mt-1 mb-1">
-     <h1> <img src="./img/todo app.png" alt="Todoapp" width="800px" /></h1>
+     <h1> <img src="./img/todo app.png" alt="Todoapp" class="w-full max-w-4xl h-auto rounded-lg shadow-lg" /></h1>
      </div>
   <p class=" text4 text-lg text-gray-300 mb-8 p-4 px-10 "> <strong>Fonctionnalités Clés: </strong> <br> <br>
     - Les utilisateurs peuvent créer de nouvelles tâches et leur assigner l'une des trois priorités définies : Urgente,
@@ -180,15 +182,16 @@
   <section id="profil">
     <h2 class=" text2 flex justify-center py-7 ">Qui suis-je</h2>
     <h3 class=" text3 flex justify-letf py-5 px-7">Mes Ambitions </h3>
-    <div class=" flex  px-10 items-center justify-between">
+    <div class="flex flex-col md:flex-row px-4 md:px-10 items-center justify-between gap-8">
       <p class=" text4 text-lg text-gray-300 mb-8 p-4 pr-8 ">
 
         Je suis une future développeuse Full Stack dont l'ambition est de concevoir et de participer au lancement de
         solutions innovantes et évolutives.
         J'ai choisi l'option SLAM pour acquérir la polyvalence nécessaire à la construction de ses dernières
-      . <br><br>
+        . <br><br>
 
-        Mon moteur est l'acquisition de nouvelles compétences en autodidacte, et j'ai à cœur de prendre l'initiative de projets
+        Mon moteur est l'acquisition de nouvelles compétences en autodidacte, et j'ai à cœur de prendre l'initiative de
+        projets
         personnels pour les maîtriser et les mettre immédiatement en application. <br><br>
 
         Je dispose des compétences de bout en bout nécessaires pour bâtir ces solutions. Cela inclut la maîtrise des
@@ -197,168 +200,226 @@
 
       </p>
 
-      <img src="img/fullstack.png" alt="full-stack" width="550px" class="rounded-lg">
+      <img src="img/fullstack.png" alt="full-stack" class="w-full max-w-lg h-auto rounded-lg shadow-lg">
     </div>
   </section>
   <section id="veille">
-  <h2 class=" text2 flex justify-center pt-10 ">Veille technologique </h2>
-  <h3 class="text3 text4 flex justify-center text-center text-2xl p-8">L'émergence des services d'Intelligence Artificielle Générative et leur developpement (SaaS). </h3>
-  <p class= " text4 flex  px-10 text-xl"><strong>Pourquoi je fais ma veille sur les sites IA générative et leur developpement ?</strong> </p>
-        
-  <div class="skills-containers p-8   ">
-  <div class="skill-box">
+    <h2 class=" text2 flex justify-center pt-10 ">Veille technologique </h2>
+    <h3 class="text3 text4 flex justify-center text-center text-2xl p-8">L'émergence des services d'Intelligence
+      Artificielle Générative et leur developpement (SaaS). </h3>
+    <p class=" text4 flex  px-10 text-xl"><strong>Pourquoi je fais ma veille sur les sites IA générative et leur
+        developpement ?</strong> </p>
+
+    <div class="skills-containers p-8   ">
+      <div class="skill-box">
         <img src="img/softdev.png" alt="Développement Logiciel" />
         <h3>Augmenter ma Productivité en tant que Développeur</h3>
         <p>
-         Le développement logiciel évolue à une vitesse fulgurante,
+          Le développement logiciel évolue à une vitesse fulgurante,
           notamment avec l'arrivée d'outils d'IA capables de générer du code ou d'assister au débogage.
-          Mon objectif n'est pas de me faire remplacer par l'IA, 
-         mais d'en faire mon allié le plus puissant. 
-         Je fais cette veille pour comprendre comment intégrer ces outils génératifs 
-         (comme GitHub Copilot ou les LLMs pour les tests) dans mes propres méthodes de travail.
-          Cela me permet d'anticiper les meilleures pratiques pour coder plus vite, mieux, 
-          et me concentrer sur la logique métier complexe plutôt que sur les tâches répétitives. 
+          Mon objectif n'est pas de me faire remplacer par l'IA,
+          mais d'en faire mon allié le plus puissant.
+          Je fais cette veille pour comprendre comment intégrer ces outils génératifs
+          (comme GitHub Copilot ou les LLMs pour les tests) dans mes propres méthodes de travail.
+          Cela me permet d'anticiper les meilleures pratiques pour coder plus vite, mieux,
+          et me concentrer sur la logique métier complexe plutôt que sur les tâches répétitives.
           C'est essentiel pour devenir un développeur SLAM à la pointe de l'efficacité.
         </p>
       </div>
 
-        <div class="skill-box ">
+      <div class="skill-box ">
         <img src="img/softdev.png" alt="Développement Logiciel" />
         <h3>Maîtriser les Architectures Applicatives de Demain</h3>
-        <p >
-       L'IA générative est rarement un logiciel monolithique ; elle est livrée en tant que SaaS, via des API. 
-       Comprendre l'architecture technique derrière ces plateformes (comment elles gèrent l'énorme charge d'inférence, 
-       comment elles facturent l'usage, l'utilisation des Microservices et du Cloud) est pour moi fondamental. En étudiant le développement de ces sites, 
-       j'acquiers une connaissance concrète des modèles de déploiement modernes (DevOps, conteneurisation) qui sont indispensables pour concevoir,
-        développer et maintenir des applications métiers évolutives et robustes pour mes futurs clients. 
-        C'est l'assurance de maîtriser les fondations techniques du développement d'applications innovantes.</p>
+        <p>
+          L'IA générative est rarement un logiciel monolithique ; elle est livrée en tant que SaaS, via des API.
+          Comprendre l'architecture technique derrière ces plateformes (comment elles gèrent l'énorme charge
+          d'inférence,
+          comment elles facturent l'usage, l'utilisation des Microservices et du Cloud) est pour moi fondamental. En
+          étudiant le développement de ces sites,
+          j'acquiers une connaissance concrète des modèles de déploiement modernes (DevOps, conteneurisation) qui sont
+          indispensables pour concevoir,
+          développer et maintenir des applications métiers évolutives et robustes pour mes futurs clients.
+          C'est l'assurance de maîtriser les fondations techniques du développement d'applications innovantes.</p>
       </div>
-</div>
+    </div>
 
     <h3 class=" text3 flex justify-left py-5 px-7 text-xl">Outils de veille</h3>
-    <div class=" flex  pl-10 pr-20 items-center justify-between ">
+    <div class="flex flex-col md:flex-row pl-4 md:pl-10 pr-4 md:pr-20 items-center justify-between gap-8">
       <p class=" text4 text-lg text-gray-300 ">
 
-        - Documentation officielle des APIs : OpenAI (Guides API), Anthropic (Claude API), <br> Google AI (Gemini API).Sources primaires pour comprendre comment intégrer les <br> cerveaux de l'IA (les APIs) et les dernières avancées en Inference <br><br>
+        - Documentation officielle des APIs : OpenAI (Guides API), Anthropic (Claude API), <br> Google AI (Gemini
+        API).Sources primaires pour comprendre comment intégrer les <br> cerveaux de l'IA (les APIs) et les dernières
+        avancées en Inference <br><br>
 
-        - Blogs des Frameworks : Next.js Blog, Vercel ou Netlify (pour l'hébergement de SaaS). <br> Ces sources sont cruciales pour apprendre les meilleures pratiques de conception <br> d'interface et d'intégration d'API<br><br>
+        - Blogs des Frameworks : Next.js Blog, Vercel ou Netlify (pour l'hébergement de SaaS). <br> Ces sources sont
+        cruciales pour apprendre les meilleures pratiques de conception <br> d'interface et d'intégration d'API<br><br>
 
-        - Institutions de réglementation : Actualités sur l'AI Act (UE) et la CNIL. <br>Je m'appuie sur des références reconnues comme le projet OWASP Top 10 for <br>LLMs pour apprendre à sécuriser les applications basées sur l'IA. <br><br>
+        - Institutions de réglementation : Actualités sur l'AI Act (UE) et la CNIL. <br>Je m'appuie sur des références
+        reconnues comme le projet OWASP Top 10 for <br>LLMs pour apprendre à sécuriser les applications basées sur l'IA.
+        <br><br>
 
       </p>
-      
-      <img src="img/veilleTechno.png" alt="veilleTechno" width="400px"  class="rounded-lg mb-5 ">
-      
+
+      <img src="img/veilleTechno.png" alt="veilleTechno" class="w-full max-w-md h-auto rounded-lg mb-5 shadow-lg">
+
     </div>
-     <h3 class=" text3 flex justify-left py-5 px-7 text-xl">Articles Pertinents :</h3>
-          
-     <div class="p-10">
-     <div class="skill-box">
-        
+    <h3 class=" text3 flex justify-left py-5 px-7 text-xl">Articles Pertinents :</h3>
+
+    <div class="p-10">
+      <div class="skill-box">
+
         <h3>La différence entre les microservices et la SOA</h3>
         <p>
 
-            L'architecture orientée services (SOA) est une méthode de développement de logiciels qui utilise des composants logiciels appelés services pour créer des applications métier. Chaque service fournit une capacité métier. Ces services peuvent également communiquer entre eux sur différentes plateformes et langages. Les développeurs utilisent la SOA pour réutiliser des services dans différents systèmes ou combiner plusieurs services indépendants pour effectuer des tâches complexes. L'architecture de microservices est une évolution du style d'architecture de SOA. Alors que chaque service SOA constitue une capacité métier complète, chaque microservice est un composant logiciel beaucoup plus petit qui se spécialise dans une seule tâche. Les microservices comblent les lacunes des SOA afin de rendre le logiciel plus compatible avec les environnements d'entreprise cloud modernes.
+          L'architecture orientée services (SOA) est une méthode de développement de logiciels qui utilise des
+          composants logiciels appelés services pour créer des applications métier. Chaque service fournit une capacité
+          métier. Ces services peuvent également communiquer entre eux sur différentes plateformes et langages. Les
+          développeurs utilisent la SOA pour réutiliser des services dans différents systèmes ou combiner plusieurs
+          services indépendants pour effectuer des tâches complexes. L'architecture de microservices est une évolution
+          du style d'architecture de SOA. Alors que chaque service SOA constitue une capacité métier complète, chaque
+          microservice est un composant logiciel beaucoup plus petit qui se spécialise dans une seule tâche. Les
+          microservices comblent les lacunes des SOA afin de rendre le logiciel plus compatible avec les environnements
+          d'entreprise cloud modernes.
 
-           <br> <br> <strong> Point Important : </strong> <br>
-           - Privilégier l'Architecture Microservices pour le SaaS <br>
-           - Adopter l'Indépendance des Données (Décentralisation) <br>
-           - Gérer la Communication via des APIs Légères (REST/gRPC)
-           
-          </p>
-            <div class="buttons items-center justify-center ">
-    <a href="https://aws.amazon.com/fr/compare/the-difference-between-soa-microservices/" class="contact" target="_blank" rel="noopener noreferrer">📄
-      Voir l'article </a>
-  </div>
+          <br> <br> <strong> Point Important : </strong> <br>
+          - Privilégier l'Architecture Microservices pour le SaaS <br>
+          - Adopter l'Indépendance des Données (Décentralisation) <br>
+          - Gérer la Communication via des APIs Légères (REST/gRPC)
+
+        </p>
+        <div class="buttons items-center justify-center ">
+          <a href="https://aws.amazon.com/fr/compare/the-difference-between-soa-microservices/" class="contact"
+            target="_blank" rel="noopener noreferrer">📄
+            Voir l'article </a>
+        </div>
       </div>
-       <p> <br><br> </p>
-  <div class="skill-box ">
-        
+      <p> <br><br> </p>
+      <div class="skill-box ">
+
         <h3>IA : Garantir la sécurité du développement d’un système d’IA</h3>
         <p>
 
-       La sécurité des traitements de données personnelles est une obligation prévue par l’article 32 du RGPD. Celui-ci précise qu’elle doit être mise en œuvre en tenant compte « de l’état des connaissances, des coûts de mise en œuvre et de la nature, de la portée, du contexte et des finalités du traitement ainsi que des risques, dont le degré de probabilité et de gravité varie, pour les droits et libertés des personnes physiques ». La sécurité du traitement est donc une obligation qu’il convient de mettre en œuvre par des mesures adaptées aux risques.
+          La sécurité des traitements de données personnelles est une obligation prévue par l’article 32 du RGPD.
+          Celui-ci précise qu’elle doit être mise en œuvre en tenant compte « de l’état des connaissances, des coûts de
+          mise en œuvre et de la nature, de la portée, du contexte et des finalités du traitement ainsi que des risques,
+          dont le degré de probabilité et de gravité varie, pour les droits et libertés des personnes physiques ». La
+          sécurité du traitement est donc une obligation qu’il convient de mettre en œuvre par des mesures adaptées aux
+          risques.
 
-En pratique, pour le développement d’un système d’IA, y compris pour l’ajustement d’un modèle pré-entraîné (fine-tuning) utilisé pour le système, il convient de combiner une analyse de sécurité « classique » portant notamment sur la sécurité de l’environnement (ce qui inclut notamment les infrastructures, les habilitations, les sauvegardes, ou encore la sécurité physique) et celle du développement logiciel et de sa maintenance (ce qui inclut notamment la mise en œuvre des bonnes pratiques de développement ou encore la gestion des vulnérabilités et des mises à jour) avec une analyse des risques spécifiques aux systèmes d’IA et aux bases de données d’entraînement de grande taille.
+          En pratique, pour le développement d’un système d’IA, y compris pour l’ajustement d’un modèle pré-entraîné
+          (fine-tuning) utilisé pour le système, il convient de combiner une analyse de sécurité « classique » portant
+          notamment sur la sécurité de l’environnement (ce qui inclut notamment les infrastructures, les habilitations,
+          les sauvegardes, ou encore la sécurité physique) et celle du développement logiciel et de sa maintenance (ce
+          qui inclut notamment la mise en œuvre des bonnes pratiques de développement ou encore la gestion des
+          vulnérabilités et des mises à jour) avec une analyse des risques spécifiques aux systèmes d’IA et aux bases de
+          données d’entraînement de grande taille.
 
 
-           <br> <br> <strong> Point Important : </strong> <br>
-           - N'utiliser que les données strictement nécessaires et anonymisées <br>
-           - Intégrer les contrôles de sécurité (comme les filtres anti-Prompt Injection) dès l'écriture du code. <br>
-           - Garantir que les données stockées et les données échangées entre votre application SaaS et l'API d'IA sont systématiquement chiffrées.
-           
-          </p>
-            <div class="buttons items-center justify-center py-4">
-    <a href="https://www.cnil.fr/fr/ia-garantir-la-securite-du-developpement" class="contact" target="_blank" rel="noopener noreferrer">📄
-      Voir l'article </a>
-  </div>
+          <br> <br> <strong> Point Important : </strong> <br>
+          - N'utiliser que les données strictement nécessaires et anonymisées <br>
+          - Intégrer les contrôles de sécurité (comme les filtres anti-Prompt Injection) dès l'écriture du code. <br>
+          - Garantir que les données stockées et les données échangées entre votre application SaaS et l'API d'IA sont
+          systématiquement chiffrées.
+
+        </p>
+        <div class="buttons items-center justify-center py-4">
+          <a href="https://www.cnil.fr/fr/ia-garantir-la-securite-du-developpement" class="contact" target="_blank"
+            rel="noopener noreferrer">📄
+            Voir l'article </a>
+        </div>
       </div>
-<p> <br><br> </p>
+      <p> <br><br> </p>
 
-        <div class="skill-box ">
-       
+      <div class="skill-box ">
+
         <h3>Comment le Cloud peut aider à maîtriser les coûts IT ?</h3>
         <p>
 
 
-Face aux défis croissants de la gestion des coûts informatiques, exacerbés par l’évolution réglementaire, la volatilité des prix, l’impératif d’intégration technologique de pointe et la montée du shadow IT, le Cloud Computing s’est imposé comme un pilier stratégique incontournable pour les Directions des Systèmes d’Information. Cependant, sa mise en œuvre vient avec son lot de défis et d’opportunités, nécessitant une approche structurée de gestion financière. C’est ici que le FinOps joue un rôle crucial, en offrant une méthodologie pour maximiser l’efficacité des dépenses Cloud. En favorisant une collaboration étroite entre les départements financiers, opérationnels et de développement, le FinOps permet d’aligner les stratégies d’investissement Cloud sur les objectifs business, assurant ainsi une gestion des coûts à la fois agile et optimisée.
-          
-           <br> <br> <strong> Point Important : </strong> <br>
-           - Chaque développeur doit traiter les coûts Cloud comme un indicateur de performance . <br>
-           - Le FinOps permet d'aligner les dépenses Cloud (et donc les choix techniques) sur les objectifs business. <br>
-           - Nécessité de collaboration étroite entre les développeurs et les équipes financières pour suivre et optimiser les dépenses en temps réel.
-           </p>
-            <div class="buttons items-center justify-center py-4">
-    <a href="https://www.informatiquenews.fr/comment-le-cloud-peut-aider-a-maitriser-les-couts-it-benjamin-yann-khalid-ibnelbachyr-crayon-99634" class="contact" target="_blank" rel="noopener noreferrer">📄
-      Voir l'article </a>
-  </div>
+          Face aux défis croissants de la gestion des coûts informatiques, exacerbés par l’évolution réglementaire, la
+          volatilité des prix, l’impératif d’intégration technologique de pointe et la montée du shadow IT, le Cloud
+          Computing s’est imposé comme un pilier stratégique incontournable pour les Directions des Systèmes
+          d’Information. Cependant, sa mise en œuvre vient avec son lot de défis et d’opportunités, nécessitant une
+          approche structurée de gestion financière. C’est ici que le FinOps joue un rôle crucial, en offrant une
+          méthodologie pour maximiser l’efficacité des dépenses Cloud. En favorisant une collaboration étroite entre les
+          départements financiers, opérationnels et de développement, le FinOps permet d’aligner les stratégies
+          d’investissement Cloud sur les objectifs business, assurant ainsi une gestion des coûts à la fois agile et
+          optimisée.
+
+          <br> <br> <strong> Point Important : </strong> <br>
+          - Chaque développeur doit traiter les coûts Cloud comme un indicateur de performance . <br>
+          - Le FinOps permet d'aligner les dépenses Cloud (et donc les choix techniques) sur les objectifs business.
+          <br>
+          - Nécessité de collaboration étroite entre les développeurs et les équipes financières pour suivre et
+          optimiser les dépenses en temps réel.
+        </p>
+        <div class="buttons items-center justify-center py-4">
+          <a href="https://www.informatiquenews.fr/comment-le-cloud-peut-aider-a-maitriser-les-couts-it-benjamin-yann-khalid-ibnelbachyr-crayon-99634"
+            class="contact" target="_blank" rel="noopener noreferrer">📄
+            Voir l'article </a>
+        </div>
       </div>
 
-      </div>
+    </div>
   </section>
 
   <section id="epreuve">
     <div>
       <h2 class=" text2 flex justify-center pt-10 pb-8">L'épreuve E4</h2>
     </div>
-    <div class=" flex  px-10 items-center justify-between">
-      <p class=" text4 text-lg text-gray-300 mb-8 p-4 pr-8 w-1/2 ">
+    <div class="flex flex-col md:flex-row px-4 md:px-10 items-center justify-between gap-8">
+      <p class=" text4 text-lg text-gray-300 mb-8 p-4 pr-8 ">
 
-        La préparation à l'Épreuve E4, le cœur de mon cursus BTS SIO SLAM, est une priorité. En première année, cette section de mon portfolio vise à présenter les fondations techniques et méthodologiques que j'ai acquises. 
-        À travers divers Travaux Pratiques et mini-projets, j'ai développé ma capacité à modéliser des bases de données robustes, à appliquer les principes de la Programmation Orientée Objet (POO) pour écrire un code propre, et 
-        à comprendre l'architecture Client/Serveur. Ces réalisations constituent ma boîte à outils essentielle, me positionnant idéalement pour concevoir, développer et documenter l'application métier complexe qui fera l'objet de mon projet final en deuxième année.
+        La préparation à l'Épreuve E4, le cœur de mon cursus BTS SIO SLAM, est une priorité. En première année, cette
+        section de mon portfolio vise à présenter les fondations techniques et méthodologiques que j'ai acquises.
+        À travers divers Travaux Pratiques et mini-projets, j'ai développé ma capacité à modéliser des bases de données
+        robustes, à appliquer les principes de la Programmation Orientée Objet (POO) pour écrire un code propre, et
+        à comprendre l'architecture Client/Serveur. Ces réalisations constituent ma boîte à outils essentielle, me
+        positionnant idéalement pour concevoir, développer et documenter l'application métier complexe qui fera l'objet
+        de mon projet final en deuxième année.
 
       </p>
 
-      <img src="img/e4.jpg" alt="full-stack" width="550px" class="rounded-lg">
+      <img src="img/e4.jpg" alt="full-stack" class="w-full max-w-lg h-auto rounded-lg shadow-lg">
     </div>
     <h3 class=" text3 flex justify-letf py-5 px-7">Démonstration des Compétences E4</h3>
-    
-    <div class="p-10 skills-containers">
-        
-        <div class="skill-box">
-            <img src="img/data.png" alt="Modélisation" />
-            <h3>Conception et Modélisation (POO & BDD)</h3>
-            <p>
-                Mes projets démontrent une maîtrise de l'approche objet et de la structuration des données. Pour le Pokédex, bien que l'API soit externe, j'ai conceptualisé le Modèle Logique de Données (MLD) sous-jacent (Entités : Pokémon, Types, Capacités) pour comprendre la logique relationnelle. Le développement en React et TypeScript m'a permis d'appliquer concrètement la Programmation Orientée Objet (POO) en structurant l'application autour de composants (Classes/Fonctions) réutilisables, garantissant l'encapsulation de la logique et du rendu (Composants, Hooks).
-            </p>
-        </div>
 
-        <div class="skill-box">
-            <img src="img/webicon.png" alt="Développement" />
-            <h3>Développement et Qualité du Code</h3>
-            <p>
-                La Todo-App illustre ma capacité à développer des fonctionnalités complètes et durables. L'utilisation de TypeScript sur les deux projets n'est pas un hasard ; c'est une exigence de qualité de code qui facilite la maintenance et la détection d'erreurs, points cruciaux de l'Épreuve E4. La gestion des données (sauvegarde via `localStorage` dans la TODO-App, gestion du `state` via les Hooks) démontre une compréhension de la persistance des données côté client, essentielle pour les applications métiers.
-            </p>
-        </div>
-        
-        <div class="skill-box">
-            <img src="img/softdev.png" alt="Git" />
-            <h3>Rigueur Méthodologique et Outils Professionnels</h3>
-            <p>
-                Conformément aux attentes de l'Épreuve E4, tous mes projets sont gérés sous Git et hébergés sur GitHub. Cela assure la traçabilité des évolutions, permet de revenir en arrière si nécessaire et prépare à la collaboration.
-            </p>
-        </div>
+    <div class="p-10 skills-containers">
+
+      <div class="skill-box">
+        <img src="img/data.png" alt="Modélisation" />
+        <h3>Conception et Modélisation (POO & BDD)</h3>
+        <p>
+          Mes projets démontrent une maîtrise de l'approche objet et de la structuration des données. Pour le Pokédex,
+          bien que l'API soit externe, j'ai conceptualisé le Modèle Logique de Données (MLD) sous-jacent (Entités :
+          Pokémon, Types, Capacités) pour comprendre la logique relationnelle. Le développement en React et TypeScript
+          m'a permis d'appliquer concrètement la Programmation Orientée Objet (POO) en structurant l'application autour
+          de composants (Classes/Fonctions) réutilisables, garantissant l'encapsulation de la logique et du rendu
+          (Composants, Hooks).
+        </p>
+      </div>
+
+      <div class="skill-box">
+        <img src="img/webicon.png" alt="Développement" />
+        <h3>Développement et Qualité du Code</h3>
+        <p>
+          La Todo-App illustre ma capacité à développer des fonctionnalités complètes et durables. L'utilisation de
+          TypeScript sur les deux projets n'est pas un hasard ; c'est une exigence de qualité de code qui facilite la
+          maintenance et la détection d'erreurs, points cruciaux de l'Épreuve E4. La gestion des données (sauvegarde via
+          `localStorage` dans la TODO-App, gestion du `state` via les Hooks) démontre une compréhension de la
+          persistance des données côté client, essentielle pour les applications métiers.
+        </p>
+      </div>
+
+      <div class="skill-box">
+        <img src="img/softdev.png" alt="Git" />
+        <h3>Rigueur Méthodologique et Outils Professionnels</h3>
+        <p>
+          Conformément aux attentes de l'Épreuve E4, tous mes projets sont gérés sous Git et hébergés sur GitHub. Cela
+          assure la traçabilité des évolutions, permet de revenir en arrière si nécessaire et prépare à la
+          collaboration.
+        </p>
+      </div>
   </section>
 
 </body>

@@ -17,14 +17,22 @@ body {
 }
 
 @keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 
 header {
-  position :fixed;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -43,13 +51,13 @@ nav {
 
 
 .logo {
-  max-width: 100px; 
+  max-width: 100px;
   height: auto;
   transition: transform 0.3s ease;
 }
 
 .logo:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 nav ul {
@@ -77,7 +85,6 @@ nav ul li a:hover {
   justify-content: center;
   align-items: flex-start;
   text-align: left;
-  padding: 3rem 6rem 6rem;
   line-height: 1.7;
 }
 
@@ -85,7 +92,7 @@ nav ul li a:hover {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .text p {
@@ -93,7 +100,7 @@ nav ul li a:hover {
   color: #d1d5db;
   max-width: 800px;
   margin-bottom: 2rem;
-  text-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
 }
 
 .buttons {
@@ -102,7 +109,8 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
-.cv, .contact {
+.cv,
+.contact {
   display: inline-block;
   padding: 0.8rem 2rem;
   border-radius: 50px;
@@ -135,12 +143,13 @@ nav ul li a:hover {
 
 
 
-.text2  {
+.text2 {
   font-size: 2.8rem;
   font-weight: 800;
   margin-bottom: 1rem;
   background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
   background-size: 200% 200%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient-shift 4s ease infinite;
@@ -165,9 +174,9 @@ nav ul li a:hover {
   border-radius: 20px;
   padding: 2rem;
   text-align: left;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.4s ease;
-  
+
 }
 
 .skill-box:hover {
@@ -197,7 +206,6 @@ nav ul li a:hover {
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
   .text {
-    padding: 8rem 2rem;
     align-items: center;
     text-align: center;
   }
@@ -219,23 +227,24 @@ nav ul li a:hover {
   margin-bottom: 1rem;
   background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
   background-size: 200% 200%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient-shift 4s ease infinite;
 }
 
-.text3  {
+.text3 {
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
- text-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
 }
 
- .text4  {
-  text-shadow: 0 5px 5px rgba(0,0,0,0.4);
+.text4 {
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-.carousel{
+.carousel {
   margin: 100px auto;
   width: 100%;
   display: flex;
@@ -243,13 +252,13 @@ nav ul li a:hover {
   gap: 1em;
 }
 
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
   display: none;
 }
 
 .group {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   gap: 1em;
   animation: spin 7s infinite linear;
@@ -257,20 +266,25 @@ nav ul li a:hover {
 }
 
 .tech {
-  flex : 0 0 5em;
+  flex: 0 0 5em;
   height: 5em;
   padding: 1em;
   background: rgba(255, 255, 255, 0.08);
-  font-size : 3rem;
-  border-radius : .2em;
+  font-size: 3rem;
+  border-radius: .2em;
   text-align: center;
   align-content: center;
 
 }
 
 @keyframes spin {
-  from {translate:0;}
-  to {translate: -100%}
+  from {
+    translate: 0;
+  }
+
+  to {
+    translate: -100%
+  }
 }
 
 
@@ -280,10 +294,10 @@ nav ul li a:hover {
 #profil,
 #veille,
 #epreuve {
-    /* Laisser un décalage de 80px, supérieur à la hauteur du header */
-    scroll-margin-top: 80px; 
+
+  scroll-margin-top: 80px;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
