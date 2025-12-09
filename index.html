@@ -13,12 +13,11 @@
 <body>
   <header>
     <nav>
-      <div class="w-20 h-25 bg-white rounded-lg flex items-center justify-center">
+      <div class="  rounded-lg flex items-center justify-center py-8 px-4">
         <a href="#">
-          <img src="img/logoprincipal.png" alt="Logo Loretta" class="logo w-[60px] h-auto" />
         </a>
       </div>
-      <ul>
+      <ul class="pr-4">
         <li><a href="#accueil">Accueil</a></li>
         <li><a href="#skills">Compétences</a></li>
         <li><a href="#projets">Projets</a></li>
@@ -29,8 +28,8 @@
     </nav>
   </header>
 
-  <section class="text px-4 md:px-24 py-12 md:py-24" id="accueil">
-    <h1>
+  <section class="text px-4 " id="accueil">
+    <h1 >
       Bonjour, je suis
       <span style="color: blueviolet;"><span class="auto-typing"></span></span>
     </h1>
@@ -41,9 +40,9 @@
       et les <strong>nouvelles technologies</strong>,
       je suis actuellement à la recherche
       <span style="color: blueviolet;">d’une alternance </span>
-      ainsi que d’un <span style="color: blueviolet;">stage</span> afin d’approfondir mes compétences
+      dans l'immédiat ainsi que d’un <span style="color: blueviolet;">stage</span> en Juin 2026 afin d’approfondir mes compétences
       et de participer à des projets concrets. <br /><br />
-      Ouverte aux postes en <strong>développement</strong> ou en <strong>support IT</strong>,
+      Ouverte aux postes en <strong>développement Web ou Logiciel</strong> ,
       je souhaite mettre ma curiosité et ma rigueur au service d’une équipe dynamique. <br /><br />
       <strong>Rythme d’alternance :</strong> 3 jours en entreprise / 2 jours à l’école.
     </p>
@@ -56,7 +55,7 @@
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     new Typed(".auto-typing", {
-      strings: ["Loretta", "Développeuse Web", "Support IT"],
+      strings: [ "Développeuse Web", "à la recherche d'un stage","à la recherche d'une alternance"],
       typeSpeed: 90,
       backSpeed: 70,
       loop: true,
@@ -110,12 +109,12 @@
     <div class="carousel">
       <div class="group">
         <div class="tech"><img src="./img/HTML5.png" alt="html"> </div>
-        <div class="tech"><img src="./img/CSS3.png" alt="html"> </div>
-        <div class="tech"><img src="./img/Javascript.png" alt="html"> </div>
-        <div class="tech"> <img src="./img/python.png" alt="html"></div>
-        <div class="tech"><img src="./img/reactJS.webp" alt="html"> </div>
-        <div class="tech"><img src="./img/Tailwind-CSS.jpeg" alt="html"> </div>
-        <div class="tech"><img src="./img/nextjs.png" alt="html"> </div>
+        <div class="tech"><img src="./img/CSS3.png" alt="css"> </div>
+        <div class="tech"><img src="./img/Javascript.png" alt="javscript"> </div>
+        <div class="tech"> <img src="./img/python.png" alt="python"></div>
+        <div class="tech"><img src="./img/reactJS.webp" alt="reactJS"> </div>
+        <div class="tech"><img src="./img/Tailwind-CSS.jpeg" alt="Tailwind-CSS"> </div>
+        <div class="tech"><img src="./img/nextjs.png" alt="NextJS"> </div>
       </div>
       <div aria-hidden class="group">
         <div class="tech"><img src="./img/HTML5.png" alt="html"> </div>
@@ -147,7 +146,7 @@
     <strong> Démonstration Technique: </strong>Ce projet illustre ma capacité à gérer des états complexes, à intégrer
     des API (ou des données structurées) et à créer des composants réutilisables dans un environnement visuellement
     engageant avec une palette de couleurs profonde et un design card-based. <br> <br>
-    <strong>Connaissance acquise : </strong> React(Hook,Composant,Function,Routing),TailwindCSS,TypeScript,Api Rest
+    <strong>Connaissance acquise : </strong> ReactJS,TailwindCSS,TypeScript,Api Rest
   </p>
   </div>
 
@@ -161,7 +160,7 @@
   <div class=" flex items-center justify-center mt-1 mb-1">
      <h1> <img src="./img/todo app.png" alt="Todoapp" class="w-full max-w-4xl h-auto rounded-lg shadow-lg" /></h1>
      </div>
-  <p class=" text4 text-lg text-gray-300 mb-8 p-4 px-10 "> <strong>Fonctionnalités Clés: </strong> <br> <br>
+  <p class=" text4 text-md text-gray-300 mb-8 p-8"> <strong>Fonctionnalités Clés: </strong> <br> <br>
     - Les utilisateurs peuvent créer de nouvelles tâches et leur assigner l'une des trois priorités définies : Urgente,
     Moyenne ou Basse. <br>
     -Le catalogue de tâches peut être filtré instantanément par priorité (Urgente, Moyenne, Basse) ou affiché dans son
@@ -171,7 +170,7 @@
     <strong> Démonstration Technique: </strong>Ce projet est une application de gestion de tâches simple mais complète,
     démontrant ma maîtrise des fondamentaux de l'écosystème React, du stockage de données client, et de l'intégration de
     styles modernes avec Tailwind CSS.. <br> <br>
-    <strong>Connaissance acquise : </strong> React(Hook,Composant,Function,),TailwindCSS,TypeScript,Local Storage
+    <strong>Connaissance acquise : </strong> ReactJS,TailwindCSS,TypeScript,Local Storage
   </p>
 
   <div class="buttons items-center justify-center pb-4">
@@ -182,8 +181,8 @@
   <section id="profil">
     <h2 class=" text2 flex justify-center py-7 ">Qui suis-je</h2>
     <h3 class=" text3 flex justify-letf py-5 px-7">Mes Ambitions </h3>
-    <div class="flex flex-col md:flex-row px-4 md:px-10 items-center justify-between gap-8">
-      <p class=" text4 text-lg text-gray-300 mb-8 p-4 pr-8 ">
+    <div class="flex flex-col lg:flex-row px-4 md:px-10 items-center justify-between gap-8">
+      <p class=" text4 text-md text-gray-300 mb-8 p-4 pr-8 ">
 
         Je suis une future développeuse Full Stack dont l'ambition est de concevoir et de participer au lancement de
         solutions innovantes et évolutives.
@@ -205,7 +204,7 @@
   </section>
   <section id="veille">
     <h2 class=" text2 flex justify-center pt-10 ">Veille technologique </h2>
-    <h3 class="text3 text4 flex justify-center text-center text-2xl p-8">L'émergence des services d'Intelligence
+    <h3 class="text3 text4 flex justify-center text-center text-lg p-8">L'émergence des services d'Intelligence
       Artificielle Générative et leur developpement (SaaS). </h3>
     <p class=" text4 flex  px-10 text-xl"><strong>Pourquoi je fais ma veille sur les sites IA générative et leur
         developpement ?</strong> </p>
@@ -244,7 +243,7 @@
     </div>
 
     <h3 class=" text3 flex justify-left py-5 px-7 text-xl">Outils de veille</h3>
-    <div class="flex flex-col md:flex-row pl-4 md:pl-10 pr-4 md:pr-20 items-center justify-between gap-8">
+    <div class="flex flex-col lg:flex-row pl-4 lg:pl-10 pr-4 lg:pr-20 items-center justify-between gap-8">
       <p class=" text4 text-lg text-gray-300 ">
 
         - Documentation officielle des APIs : OpenAI (Guides API), Anthropic (Claude API), <br> Google AI (Gemini
@@ -367,7 +366,7 @@
     <div>
       <h2 class=" text2 flex justify-center pt-10 pb-8">L'épreuve E4</h2>
     </div>
-    <div class="flex flex-col md:flex-row px-4 md:px-10 items-center justify-between gap-8">
+    <div class="flex flex-col lg:flex-row px-4 lg:px-10 items-center justify-between gap-8">
       <p class=" text4 text-lg text-gray-300 mb-8 p-4 pr-8 ">
 
         La préparation à l'Épreuve E4, le cœur de mon cursus BTS SIO SLAM, est une priorité. En première année, cette
