@@ -140,7 +140,7 @@
             <div class="tech-item"><img src="./img/Tailwind-CSS.jpeg" alt="Tailwind CSS"></div>
             <div class="tech-item"><img src="./img/nextjs.png" alt="Next.js"></div>
             
-            <!-- Duplicate for infinite scroll -->
+            
             <div class="tech-item"><img src="./img/HTML5.png" alt="HTML5"></div>
             <div class="tech-item"><img src="./img/CSS3.png" alt="CSS3"></div>
             <div class="tech-item"><img src="./img/Javascript.png" alt="JavaScript"></div>
@@ -212,39 +212,47 @@
       
 
       <div class="project">
-        <h3 class="project-title">TODO-APP</h3>
+        <h3 class="project-title">ORA TRIP — Plateforme E-Commerce Headless</h3>
         <div class="project-images single">
-          <img src="./img/todo app.png" alt="Application TODO" class="project-img">
+          <img src="./img/oratrip.png" alt="Aperçu de la boutique ORA TRIP" class="project-img">
         </div>
         <div class="project-content">
           <div class="project-section">
             <h4>Fonctionnalités Clés</h4>
             <ul>
-              <li>Création de nouvelles tâches avec trois niveaux de priorité : Urgente, Moyenne ou Basse</li>
-              <li>Filtrage instantané par priorité avec compteur dynamique pour chaque catégorie</li>
-              <li>Utilisation du localStorage pour sauvegarder les tâches (persistance des données après fermeture du navigateur)</li>
+              <li><strong>Architecture découplée (Headless) :</strong> Front-end Next.js communiquant via API avec un Back-end e-commerce Node.js (MedusaJS).</li>
+              <li><strong>Expérience Utilisateur (UX) Premium :</strong> Animations fluides (Framer Motion), galerie Lightbox avec Drag & Zoom, et navigation instantanée.</li>
+              <li><strong>Gestion d'état asynchrone :</strong> Panier d'achat interactif avec "Optimistic UI" (mise à jour visuelle instantanée) géré via Zustand.</li>
+              <li><strong>Infrastructure Cloud de production :</strong> Hébergement sur Railway (Serveur API + Worker + Redis), base de données Supabase (PostgreSQL avec Connection Pooling), et stockage d'images sur Cloudflare R2.</li>
+              <li><strong>Optimisation SEO dynamique :</strong> Génération automatisée du Sitemap XML et du fichier Robots.txt pour l'indexation Google.</li>
             </ul>
           </div>
           <div class="project-section">
             <h4>Démonstration Technique</h4>
             <p>
-              Application de gestion de tâches simple mais complète, démontrant ma maîtrise des fondamentaux 
-              de l'écosystème React, du stockage de données client, et de l'intégration de styles modernes avec Tailwind CSS.
+              Ce projet de boutique en ligne met en évidence ma capacité à concevoir et déployer une architecture e-commerce moderne de A à Z. Il démontre ma maîtrise des flux asynchrones, la structuration sécurisée d'un back-end en production (gestion stricte des CORS), ainsi que l'intégration d'outils professionnels pour garantir la performance globale de l'application.
             </p>
           </div>
           <div class="project-section">
             <h4>Connaissances acquises</h4>
             <div class="tech-tags">
-              <span class="tech-tag">ReactJS</span>
-              <span class="tech-tag">TailwindCSS</span>
+              <span class="tech-tag">Next.js (App Router)</span>
+              <span class="tech-tag">MedusaJS</span>
               <span class="tech-tag">TypeScript</span>
-              <span class="tech-tag">Local Storage</span>
+              <span class="tech-tag">Supabase (PostgreSQL)</span>
+              <span class="tech-tag">Zustand</span>
+              <span class="tech-tag">Framer Motion</span>
+              <span class="tech-tag">Cloudflare R2 / Railway</span>
             </div>
           </div>
           <div class="project-links">
-            <a href="https://github.com/s-loretta/todoapp-react" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            <a href="https://oratrip.fr" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+              <span class="btn-icon">🌐</span>
+              Voir le Site
+            </a>
+            <a href="https://github.com/s-loretta" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
               <span class="btn-icon">📄</span>
-              Code Source
+              Code Source (Front)
             </a>
           </div>
         </div>
