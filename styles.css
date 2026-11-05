@@ -1012,3 +1012,138 @@ footer p {
     padding: 2rem;
   }
 }
+
+.competences-bloc-container {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 2.5rem;
+  margin-top: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bloc-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.8rem;
+  position: relative;
+  display: inline-block;
+}
+
+.bloc-title::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 45px;
+  height: 2px;
+  background-color: var(--color-primary);
+}
+
+.bloc-description {
+  color: var(--color-text-light);
+  font-size: 0.98rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.competences-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.competences-table th,
+.competences-table td {
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--color-border);
+}
+
+.competences-table thead tr {
+  background-color: var(--color-bg);
+}
+
+.competences-table th {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.competences-table .col-skill {
+  width: 70%;
+}
+
+.competences-table .col-project {
+  width: 15%;
+  text-align: center;
+}
+
+.competences-table tbody tr {
+  background-color: rgba(10, 14, 39, 0.35);
+  transition: var(--transition);
+}
+
+.competences-table tbody tr:hover {
+  background-color: var(--color-surface-hover);
+}
+
+.competences-table tbody td {
+  color: var(--color-text-light);
+}
+
+.competences-table tbody tr td:first-child {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.cell-check {
+  text-align: center;
+}
+
+.table-project-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.table-project-link:hover {
+  color: var(--color-primary-light);
+  text-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+}
+
+.check-link {
+  display: inline-block;
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  transition: var(--transition);
+}
+
+.check-link:hover {
+  color: var(--color-primary-light);
+  transform: scale(1.15);
+  text-shadow: 0 0 12px rgba(255, 105, 180, 0.6);
+}
+
+@media (max-width: 640px) {
+  .competences-bloc-container {
+    padding: 1.5rem;
+  }
+
+  .competences-table th,
+  .competences-table td {
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
+}
