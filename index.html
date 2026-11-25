@@ -24,7 +24,6 @@
         <li><a href="#projets">Projets</a></li>
         <li><a href="#profil">Profil</a></li>
         <li><a href="#veille">Veille</a></li>
-        <li><a href="#epreuve">Épreuve E4</a></li>
       </ul>
       <button class="menu-toggle" aria-label="Toggle menu">
         <span></span>
@@ -47,19 +46,13 @@
             (option <strong>SLAM</strong>) à <strong>ENSITECH</strong>.
           </p>
           <p>
-            Passionnée par le <strong>développement web</strong>, l'<strong>analyse de données</strong>
-            et les <strong>nouvelles technologies</strong>, je suis actuellement à la recherche
-            <span class="highlight">d'une alternance</span> pour l'année scolaire 2026-2027 ainsi que d'un 
-            <span class="highlight">stage</span> du 21 Juin 2026 au 31 juillet 2026 afin d'approfondir mes compétences
-            et de participer à des projets concrets.
+            Passionnée par le développement d'applications et l'ingénierie logicielle, je conçois et déploie des solutions modernes et performantes de bout en bout 
+            — de l'architecture backend (Java Spring Boot, API REST) et des interfaces front-end réactives jusqu'à la conteneurisation et l'administration des systèmes.
+             Forte de projets concrets alliant robustesse du code et bonnes pratiques DevOps, je mets ma rigueur et ma curiosité technique au service de la création d'applications 
+             fiables et évolutives.
           </p>
-          <p>
-            Ouverte aux postes en <strong>développement Web ou Logiciel</strong>, 
-            je souhaite mettre ma curiosité et ma rigueur au service d'une équipe dynamique.
-          </p>
-          <p class="work-schedule">
-            <strong>Rythme d'alternance :</strong> 3 jours en entreprise / 2 jours à l'école.
-          </p>
+
+          
         </div>
         <div class="cta-buttons">
           <a href="cv_ensitech.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
@@ -85,45 +78,45 @@
       <div class="skills-grid">
         <div class="skill-card">
           <div class="skill-icon">
-            <img src="img/webicon.png" alt="Développement Web" />
+            <img src="img/softdev.png" alt="Backend & Ingénierie" />
           </div>
-          <h3>Développement Web</h3>
+          <h3>Backend & Ingénierie</h3>
           <p>
-            Création d'interfaces modernes et dynamiques avec HTML, CSS, JavaScript, React, TailwindCSS et NextJS.
-            Conception de sites web, Application Web et mise en ligne. Bonne compréhension du modèle client-serveur.
+            Programmation orientée objet et création d'API REST robustes avec Java (Spring Boot) et Node.js. 
+            Implémentation de WebSockets pour les flux temps réel, gestion stricte des exceptions et programmation en Python.
           </p>
         </div>
 
         <div class="skill-card">
           <div class="skill-icon">
-            <img src="img/data.png" alt="Base de données" />
+            <img src="img/webicon.png" alt="Frontend" />
           </div>
-          <h3>Base de données</h3>
+          <h3>Frontend</h3>
           <p>
-            Conception et gestion de bases relationnelles avec SQL, BigQuery et Prisma.
-            Requêtes optimisées, maintenance et sécurité des données.
+            Création d'interfaces utilisateur dynamiques et modernes avec React.js, Next.js, JavaScript et Tailwind CSS. 
+            Intégration de composants réutilisables et structuration d'expériences web fluides.
           </p>
         </div>
 
         <div class="skill-card">
           <div class="skill-icon">
-            <img src="img/softdev.png" alt="Développement Logiciel" />
+            <img src="img/data.png" alt="Bases de données" />
           </div>
-          <h3>Développement Logiciel</h3>
+          <h3>Bases de données</h3>
           <p>
-            Programmation orientée objet en Python.
-            Création d'applications simples et gestion de versions via Git/GitHub.
+            Conception et administration de bases relationnelles avec PostgreSQL, SQL et Supabase. 
+            Maîtrise de la modélisation des données (MCD/MLD) pour structurer des architectures logicielles fiables.
           </p>
         </div>
 
         <div class="skill-card">
           <div class="skill-icon">
-            <img src="img/anadata.png" alt="Analyse de données" />
+            <img src="img/softdev.png" alt="Système, DevOps & Cloud" />
           </div>
-          <h3>Analyse de données</h3>
+          <h3>Système, DevOps & Cloud</h3>
           <p>
-            Certification Google Data Analytics.
-            Maîtrise du cycle complet : collecte, nettoyage, traitement, visualisation et reporting.
+            Administration de serveurs Linux (Debian) et conteneurisation avec Docker. 
+            Déploiement et gestion d'infrastructures Cloud (AWS, Cloudflare R2) ainsi que la sécurisation des zones DNS et des requêtes.
           </p>
         </div>
       </div>
@@ -293,56 +286,53 @@
     </div>
   </div>
 
-  <div class="competences-bloc-container">
-  <div class="bloc-header">
-    <h3 class="bloc-title">Compétences du bloc 1</h3>
-    <p class="bloc-description">
-      Chaque croix renvoie au projet qui la prouve. Le tableau se remplit tout seul à chaque projet ajouté.
+<div class="project-content">
+    <div class="project-section">
+      <h4>Application web de gestion et de réservation de salles</h4>
+      <p>
+        Un centre de formation continue de 22 salariés à Évry gérait ses 9 salles sur un tableur partagé, 
+        provoquant régulièrement des doubles réservations. J'ai conçu et développé une application full-stack 
+        (Java Spring Boot, MySQL et JavaScript) offrant un planning hebdomadaire interactif et une règle anti-conflit garantie côté serveur.
+      </p>
+    </div>
+
+    <div class="project-links">
+      <a href="compte-rendu/Fiche descriptive E6 SLAM application web de gestion et de réservation de salles.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+        <span class="btn-icon">📄</span>
+        Compte-rendu
+      </a>
+    </div>
+  </div>
+
+  <div class="project-content">
+  <div class="project-section">
+    <h4>Instant Talk — Application de messagerie instantanée multi-salons</h4>
+    <p>
+      Lors de mon stage de première année, j'ai conçu et développé une application web de chat temps réel sécurisée permettant à des utilisateurs authentifiés d'échanger dans des salons personnels. Basée sur Java Spring Boot, WebSocket (STOMP), React, TypeScript et Keycloak, la solution assure la gestion des membres par le propriétaire du salon, le chiffrement des messages et un historique paginé.
     </p>
   </div>
 
-  <div class="table-responsive">
-    <table class="competences-table">
-      <thead>
-        <tr>
-          <th class="col-skill">Compétence</th>
-          <th class="col-project"><a href="#projet-2" class="table-project-link">P1</a></th>
-          <th class="col-project"><a href="#projet-1" class="table-project-link">P2</a></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Gérer le patrimoine informatique</td>
-          <td class="cell-check"><a href="#projet-2" class="check-link">X</a></td>
-          <td class="cell-check"><a class="check-link">X</a></td>
-        </tr>
-        <tr>
-          <td>Répondre aux incidents et aux demandes d'assistance et d'évolution</td>
-          <td class="cell-check"><a class="check-link">X</a></td>
-          <td class="cell-check"></td>
-        </tr>
-        <tr>
-          <td>Développer la présence en ligne de l'organisation</td>
-          <td class="cell-check"><a class="check-link">X</a></td>
-          <td class="cell-check"></td>
-        </tr>
-        <tr>
-          <td>Travailler en mode projet</td>
-          <td class="cell-check"></td>
-          <td class="cell-check"></td>
-        </tr>
-        <tr>
-          <td>Mettre à disposition des utilisateurs un service informatique</td>
-          <td class="cell-check"><a class="check-link">X</a></td>
-          <td class="cell-check"><a class="check-link">X</a></td>
-        </tr>
-        <tr>
-          <td>Organiser son développement professionnel</td>
-          <td class="cell-check"></td>
-          <td class="cell-check"></td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="project-links">
+    <a href="compte-rendu/Fiche de réalisation E6 SLAM Instant Talk, application de chat instantané multi-.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+      <span class="btn-icon">📄</span>
+      Compte-rendu
+    </a>
+  </div>
+</div>
+
+<div class="competences-bloc-container">
+  <div class="bloc-header">
+    <h3 class="bloc-title">Tableau de synthèse (Bloc 1)</h3>
+    <p class="bloc-description">
+      Retrouvez l'ensemble de mes réalisations professionnelles et les compétences associées du Bloc 1 dans ma fiche de synthèse officielle.
+    </p>
+  </div>
+
+  <div class="project-links">
+    <a href="8 - ANNEXE VI.1 - EPREUVE E5 TABLEAU DE SYNTHESE - BTS SIO 2026.xlsx" class="btn btn-primary" download>
+      <span class="btn-icon">📊</span>
+      Télécharger la fiche de synthèse (Excel)
+    </a>
   </div>
 </div>
 
@@ -542,80 +532,7 @@
     </div>
   </section>
 
-  <section class="section-epreuve" id="epreuve">
-    <div class="container">
-      <h2 class="section-title">L'épreuve E4</h2>
-      
-      <div class="epreuve-intro">
-        <div class="epreuve-text">
-          <p>
-            La préparation à l'Épreuve E4, le cœur de mon cursus BTS SIO SLAM, est une priorité. En première année, 
-            cette section de mon portfolio vise à présenter les fondations techniques et méthodologiques que j'ai acquises.
-          </p>
-          <p>
-            À travers divers Travaux Pratiques et mini-projets, j'ai développé ma capacité à modéliser des bases de données
-            robustes, à appliquer les principes de la Programmation Orientée Objet (POO) pour écrire un code propre, et
-            à comprendre l'architecture Client/Serveur.
-          </p>
-          <p>
-            Ces réalisations constituent ma boîte à outils essentielle, me positionnant idéalement pour concevoir, 
-            développer et documenter l'application métier complexe qui fera l'objet de mon projet final en deuxième année.
-          </p>
-        </div>
-        <div class="epreuve-image">
-          <img src="img/e4.jpg" alt="Épreuve E4">
-        </div>
-      </div>
-
-      <h3 class="subsection-title">Démonstration des Compétences E4</h3>
-
-      <div class="competences-grid">
-        <div class="competence-card">
-          <div class="competence-icon">
-            <img src="img/data.png" alt="Modélisation">
-          </div>
-          <h4>Conception et Modélisation (POO & BDD)</h4>
-          <p>
-            Mes projets démontrent une maîtrise de l'approche objet et de la structuration des données. Pour le Pokédex,
-            bien que l'API soit externe, j'ai conceptualisé le Modèle Logique de Données (MLD) sous-jacent (Entités :
-            Pokémon, Types, Capacités) pour comprendre la logique relationnelle.
-          </p>
-          <p>
-            Le développement en React et TypeScript m'a permis d'appliquer concrètement la Programmation Orientée Objet (POO) 
-            en structurant l'application autour de composants (Classes/Fonctions) réutilisables, garantissant l'encapsulation 
-            de la logique et du rendu.
-          </p>
-        </div>
-
-        <div class="competence-card">
-          <div class="competence-icon">
-            <img src="img/webicon.png" alt="Développement">
-          </div>
-          <h4>Développement et Qualité du Code</h4>
-          <p>
-            La Todo-App illustre ma capacité à développer des fonctionnalités complètes et durables. L'utilisation de
-            TypeScript sur les deux projets n'est pas un hasard ; c'est une exigence de qualité de code qui facilite la
-            maintenance et la détection d'erreurs, points cruciaux de l'Épreuve E4.
-          </p>
-          <p>
-            La gestion des données (sauvegarde via localStorage dans la TODO-App, gestion du state via les Hooks) 
-            démontre une compréhension de la persistance des données côté client, essentielle pour les applications métiers.
-          </p>
-        </div>
-
-        <div class="competence-card">
-          <div class="competence-icon">
-            <img src="img/softdev.png" alt="Git">
-          </div>
-          <h4>Rigueur Méthodologique et Outils Professionnels</h4>
-          <p>
-            Conformément aux attentes de l'Épreuve E4, tous mes projets sont gérés sous Git et hébergés sur GitHub. 
-            Cela assure la traçabilité des évolutions, permet de revenir en arrière si nécessaire et prépare à la collaboration.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <footer>
     <div class="container">
